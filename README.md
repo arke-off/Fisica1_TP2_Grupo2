@@ -1,21 +1,36 @@
-# Fisica1_TP2_Grupo2
+# TP2 - Física I - Grupo 2
 
-Este repositorio contiene el código y la documentación del Segundo Trabajo Práctico de Física I realizado por el Grupo 2 en la UCP. :contentReference[oaicite:0]{index=0}  
-El README sigue las mejores prácticas para que cualquier colaborador comprenda rápida y fácilmente el propósito, la instalación y el uso del proyecto. :contentReference[oaicite:1]{index=1}  
+Este proyecto contiene las aplicaciones desarrolladas para la segunda parte del Trabajo Práctico 2 de Física I.
 
-## Descripción  
-Aquí evaluamos experimentalmente los coeficientes de rozamiento estático (μₛ) y dinámico (μₖ) de un cuerpo sobre un plano inclinado, y desarrollamos dos aplicaciones en Python para cálculos de distancia con GUI. :contentReference[oaicite:2]{index=2}  
+## Requisitos
 
-## Tabla de contenidos  
-- [Instalación](#instalación)  
-- [Uso](#uso)  
-- [Estructura del repositorio](#estructura-del-repositorio)  
-- [Contribuir](#contribuir)  
-- [Licencia](#licencia)  
-- [Autores](#autores)  
-- [Agradecimientos](#agradecimientos) :contentReference[oaicite:3]{index=3}  
+- Python 3.x instalado en el sistema.
+- La librería `customtkinter` instalada para ejecutar las interfaces gráficas.
 
-## Instalación  
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/arke-off/Fisica1_TP2_Grupo2.git
+Para instalar la librería necesaria, ejecutar en la terminal:
+
+```
+pip install customtkinter
+```
+
+## Instrucciones de uso
+
+1. Clonar o descargar el repositorio en tu computadora.
+2. Abrir una terminal en la carpeta del proyecto.
+3. Ejecutar uno de los archivos según el problema:
+
+Para el **Problema 2**:
+```
+python problema2.py
+```
+
+Para el **Problema 3**:
+```
+python problema3.py
+```
+
+Ambos programas abrirán una interfaz gráfica donde se podrá ingresar la información necesaria y obtener los resultados.
+
+---
+
+Grupo 2 - Física I - UCP 2025
